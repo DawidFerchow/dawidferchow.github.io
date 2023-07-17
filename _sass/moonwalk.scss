@@ -31,10 +31,21 @@ p { margin: 1em 0; }
 
 li { margin: 0.4em 0; }
 
-.w {
+header, main, footer {
   max-width: 720px;
   margin: 0 auto;
-  padding: 4em 2em;
+}
+
+header, footer {
+    padding: 4em 2em;
+}
+
+header {
+    padding-bottom: 0;
+}
+
+main {
+    padding-bottom: 4em;
 }
 
 table, th, td {
