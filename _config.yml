@@ -4,7 +4,7 @@ url: https://dawidferchow.github.io/ # root address of the site
 description: > # description of the site (multiple lines allowed)
   Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
 
-permalink: /:slug
+permalink: /:categories/:slug
 
 favicon: "./logo.png" # relative path to site's favicon
 
@@ -36,7 +36,7 @@ theme_config:
     title_projects: Portfolio
     title_misc_list: Details
     title_blog: Blog
-    title_old_projects: Old Projects
+    title_career_paths: Career paths
 
 # soopr:
   # publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
@@ -49,3 +49,13 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+collections:
+  career-paths:
+    output: true
+  code-samples:
+    output: true
+  references:
+    output: true
+
+collections_dir: collections

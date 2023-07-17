@@ -1,6 +1,12 @@
 <ul>
   {% for item in include.collection %}
     <li>
+    {% if item.date != false %}
+      <span>
+        {{ item.date | date: site.theme_config.date_format }}»
+      </span>
+    {% endif %}
+
     {% if item.url != false %}
       <a href="{{ item.url }}">{{ item.title }}</a>
     {% else %}
