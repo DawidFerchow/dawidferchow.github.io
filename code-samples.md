@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Code samples
 ---
 
 <h1>{{ site.theme_config.home.title_projects }}</h1>

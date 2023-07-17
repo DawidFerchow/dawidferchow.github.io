@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Test
 desc: should work because yes
 ---
