@@ -1,5 +1,5 @@
 <ul class="horizontal-list">
-  {% for item in include.collection %}
+  {% for item in include.collection reversed %}
 
     <li class="card">
       <a href="{{ item.url }}">
@@ -11,7 +11,7 @@
           {% endif %}
 
         </span>
-        {% if item.desc != false %}
+        {% if item.desc %}
         <p class="body">
           {{ item.desc }}
         </p>
