@@ -2,16 +2,18 @@
 layout: default
 ---
 
+<img src="{{ site.main-image }}" class="main-image">
+
 <h1>{{ site.title }}</h1>
-{% if site.theme_config.show_description == true %}
-<p>{{ site.description }}</p>
+  {% if site.theme_config.show_description == true %}
+  <p>{{ site.description }}</p>
 {% endif %}
 
 {{ content }}
 
 {% if site.theme_config.show_projects == true %}
   <h2>{{ site.theme_config.home.title_projects }}</h2>
-  {% include card_list.html collection=site.code-samples %}
+  {% include card_list.html collection=site.probki-kodu %}
 {% endif %}
 
 {% if site.theme_config.show_misc_list == true %}
@@ -24,9 +26,9 @@ layout: default
   {% include post_list.html %}
 {% endif %}
 
-{% if site.theme_config.show_old_projects == true %}
+{% if site.theme_config.show_projects == true %}
   <h2>{{ site.theme_config.home.title_career_paths }}</h2>
-  {% include card_list.html collection=site.data.home.old_project_entries %}
+  {% include vertical_list.html collection=site.sciezka-kariery %}
 {% endif %}
 
 

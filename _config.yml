@@ -1,12 +1,12 @@
-title: Moonwalk
-author: Abhinav Saxena
-url: https://dawidferchow.github.io/ # root address of the site
+title: Dawid Ferchow
+author: Dawid Ferchow
+url: https://dawidferchow.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
-  Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
-
+  Cześć! Mam na imię Dawid i jestem Junior FullStack Developerem. Programuje od 2022 roku z czego od maja tego samego roku - komercyjnie. Ta strona jest rozszerzeniem mojego CV - możesz znaleźć tutaj więcej informacji o moich umiejętnościach, ścieżce kariery czy próbki kodu, który napisałem komercyjnie oraz hobbistycznie.
 permalink: /:categories/:slug
 
 favicon: "./logo.png" # relative path to site's favicon
+main-image: "assets/images/dawid-ferchow-main-image.jpg"
 
 twitter:
     # username: abhinav # update or delete this
@@ -33,10 +33,10 @@ theme_config:
   show_tags: true # show tags in a blog posts
   # options for "home" page
   home:
-    title_projects: Portfolio
-    title_misc_list: Details
+    title_projects: Próbki kodu, który napisałem
+    title_misc_list: Umiejętności, które wykorzystuje komercyjnie
     title_blog: Blog
-    title_career_paths: Career paths
+    title_career_paths: Moja ścieżka kariery
 
 # soopr:
   # publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
@@ -51,11 +51,9 @@ plugins:
   - jekyll-seo-tag
 
 collections:
-  career-paths:
+  sciezka-kariery:
     output: true
-  code-samples:
-    output: true
-  references:
+  probki-kodu:
     output: true
 
 collections_dir: collections
