@@ -32,9 +32,20 @@ Your sincerely
 
 Daniel Currie of [engageenglish.pl](http://www.engageenglish.pl/)
 
+### Stack'i technologiczne
+- Wordrpess +:
+  - ACF, PHP, JS, Sass: 2 projekty
+  - Elementor, JetEngine +
+    - JS, Sass: 3 projekty
+    - JS, Adobe: 2 projekty
+    - WooCommerce, PHP: 1 projekt
+
 ### Inne
+- SQLite
+- MySQL
 - Git
 - GitHub
+- Figma
 - Confluence
 - Jira
 - Agile

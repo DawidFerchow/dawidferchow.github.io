@@ -21,6 +21,17 @@ Nauczyłem się tutaj całego workflow pracy jako programista. Poznałem pojęci
 - stylowanie widgetów Elementora na potrzeby danego projektu wykorzystując Figmę, Sass oraz metodykę BEM
 - dodawanie, modyfikowanie oraz rozszerzanie funkcjonalności widgetów Elementora poprzez pisanie nowych funkcji w JavaScript/jQuery również z wykorzystaniem, tworzeniem nowych eventów
 - tworzenie obiektu adobeDataLayer na potrzeby integracji z Adobe według wytycznych od opiekuna Adobe bądź Klienta
+- obsługa Git/Github: branche, commity, pull requesty, mergowanie, rozwiązywanie konfliktów
+- raportowanie do PM w metodyce Scrum i Agile z wykorzystaniem Jira, Teams, Confluence
+- komunikacja z Design Team'em z wykorzystaniem Figmy
+
+### Stack'i technologiczne
+- Wordrpess +:
+    - ACF, PHP, JS, Sass: 2 projekty
+    - Elementor, JetEngine +
+        - JS, Sass: 3 projekty
+        - JS, Adobe: 2 projekty
+        - WooCommerce, PHP: 1 projekt
 
 ## Github
 ![image with contributions from github](/assets/images/dawid-ferchow-github-contributions-in-gravity-global.jpg "image with contributions from github")

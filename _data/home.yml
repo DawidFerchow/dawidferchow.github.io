@@ -22,6 +22,12 @@ misc_entries:
   - title: PHP
     url: false
 
+  - title: SQLite
+    url: false
+
+  - title: MySQL
+    url: false
+
   - title: JavaScript
     url: false
 
@@ -35,6 +41,9 @@ misc_entries:
     url: false
 
   - title: Git / Github
+    url: false
+
+  - title: Figma
     url: false
 
   - title: Confluence
